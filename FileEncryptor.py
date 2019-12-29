@@ -155,4 +155,4 @@ class FileEncryptor(object):
 
 if __name__ == '__main__':
     FE = FileEncryptor()
-    FE.handle()
+    FE.handle()1
