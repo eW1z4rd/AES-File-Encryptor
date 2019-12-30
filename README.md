@@ -1,5 +1,5 @@
 # FileEncryptor
-利用Python实现的一个轻量级文件加解密工具，使用AES-CBC模式对一个文件或者对当前目录进行加解密操作，支持Windows/Linux下同时使用。
+利用 Python 实现的一个轻量级文件加解密工具，使用 AES-CBC 模式对一个文件或者对当前文件目录进行加解密操作，支持在 Windows/Linux 下同时使用。
 
 ## Quick start
 
@@ -26,10 +26,8 @@
   encrypt the file.
 -d, --decrypt <filename>
   decrypt the file.
--E
-  encrypt all files in the current directory.
--D
-  decrypt all files in the current directory.
+-E encrypt all files in the current directory.
+-D decrypt all files in the current directory.
 ```
 
 ### Example
@@ -38,13 +36,13 @@
 
 > python FileEncryptor.py -p asdfqwer#@! -E
 
-![](etc/pic1.png)
+![](https://raw.githubusercontent.com/eW1z4rd/AES-FileEncryptor/master/example/pic1.png)
 
 - 解密 `lockFile.enc` 文件，并还原出完整的文件目录
 
 > python FileEncryptor.py -p asdfqwer#@! -D
 
-![](etc/pic2.png)
+![](https://raw.githubusercontent.com/eW1z4rd/AES-FileEncryptor/master/example/pic2.png)
 
 ## License
 
