@@ -11,7 +11,7 @@
 
 #### CLI
 
-> FileEncryptor.py -p <password> [-e/-d/-E/-D] <filename>
+> FileEncryptor.py -p /<password> [-e/-d/-E/-D] /<filename>
 
 #### Options
 
