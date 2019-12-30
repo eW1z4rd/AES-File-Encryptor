@@ -118,12 +118,12 @@ class FileEncryptor(object):
     @staticmethod
     def usage():
         print("[*] Usage: FileEncryptor.py -p <password> [-e/-d/-E/-D] <filename>")
-        print("  -h, --help: show Usage.")
-        print("  -p [password], --pwd: enter your password.")
-        print("  -e [filename], --encrypt: encrypt the file.")
-        print("  -d [filename], --decrypt: decrypt the file.")
-        print("  -E: encrypt all files in the current directory.")
-        print("  -D: decrypt all files in the current directory.")
+        print("  -h, --help                show Usage.")
+        print("  -p, --pwd <password>      enter your password.")
+        print("  -e, --encrypt <filename>  encrypt the file.")
+        print("  -d, --decrypt <filename>  decrypt the file.")
+        print("  -E                        encrypt all files in the current directory.")
+        print("  -D                        decrypt all files in the current directory.")
 
     def handle(self):
         opts, args = getopt.getopt(sys.argv[1:], '-h-p:-e:-d:-E-D', ['help', 'pwd=', 'encrypt=', 'decrypt='])
