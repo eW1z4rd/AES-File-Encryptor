@@ -117,7 +117,7 @@ class FileEncryptor(object):
 
     @staticmethod
     def usage():
-        print("[*] Usage: FileEncryptor.py -p [password] [options]")
+        print("[*] Usage: FileEncryptor.py -p <password> [-e/-d/-E/-D] <filename>")
         print("  -h, --help: show Usage.")
         print("  -p [password], --pwd: enter your password.")
         print("  -e [filename], --encrypt: encrypt the file.")
