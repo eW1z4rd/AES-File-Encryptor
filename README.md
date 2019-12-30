@@ -1,5 +1,5 @@
 # FileEncryptor
-使用AES-CBC模式对一个文件进行加解密操作，或者对当前文件目录进行加解密操作。
+使用AES-CBC模式对一个文件或者对当前文件目录进行加解密操作。
 
 ## Quick start
 
@@ -9,23 +9,18 @@
 
 ### Usage
 
-### CLI
+#### CLI
 
-> FileEncryptor.py -p [password] [options]
+> FileEncryptor.py -p <password> [-e/-d/-E/-D] <filename>
 
-### Options
+#### Options
 
-```shell
--p, --pwd
-			enter your password.
--e, --encrypt
-			encrypt the file
--d, --decrypt
-			decrypt the file
--E
-			encrypt all files in the current directory.
--D
-			decrypt all files in the current directory.
+```
+-p, --pwd: enter your password.
+-e, --encrypt <filename>: encrypt the file
+-d, --decrypt <filename>: decrypt the file
+-E: encrypt all files in the current directory.
+-D: decrypt all files in the current directory.
 ```
 
 ## License
