@@ -1,5 +1,5 @@
 # FileEncryptor
-利用 Python 实现的一个轻量级文件加解密工具，使用 AES-CBC 模式对一个文件或者对当前文件目录进行加解密操作，支持在 Windows/Linux 下同时使用。
+利用 Python 实现的一个轻量级文件加解密工具，使用 AES-CBC 模式对一个文件或者当前文件目录进行加解密操作。支持在 Windows/Linux 下同时使用。
 
 ## Quick start
 
