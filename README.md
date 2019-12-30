@@ -18,16 +18,12 @@
 #### Options
 
 ```
--h, --help
-  show Usage.
--p, --pwd
-  enter your password.
--e, --encrypt <filename>
-  encrypt the file.
--d, --decrypt <filename>
-  decrypt the file.
--E encrypt all files in the current directory.
--D decrypt all files in the current directory.
+  -h, --help                 show Usage.
+  -p, --pwd                  enter your password.
+  -e, --encrypt <filename>   encrypt the file.
+  -d, --decrypt <filename>   decrypt the file.
+  -E                         encrypt all files in the current directory.
+  -D                         decrypt all files in the current directory.
 ```
 
 ### Example
